@@ -11,4 +11,4 @@ jobs:
     name: Deploy
     uses: csunibo/config/.github/workflows/statik.yml@main
     with:
-      regex_include: "\\.(pdf|link|txt)$"
+      regex_include: "\\.(pdf|link|txt|jpg)$"
